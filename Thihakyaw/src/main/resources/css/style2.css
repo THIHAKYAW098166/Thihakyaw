@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-color{
+    background: #EFB603;
+}
+
+nav * {
+    color: #000;
+    font-weight: bold;
+}
+
+.event-card{
+    color: #DE6A27;
+    border: 2px solid #DE6A27;
+    display: inline-block;
+    margin: 2.3rem;
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(239,182,3,0.7);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(239,182,3,0.7);
+    box-shadow: 5px 5px 0px 0px rgba(239,182,3,0.7);
+}
+
+.talent-photo{
+    margin-top: 120px;
+    margin-bottom: 150px;
+}
+
+footer *{
+    line-height: 50px;
+
+}
+
+.submit-assignment{
+    width: 400px;
+    height: 200px;
+    background: url("/img/student1.jpg");
+    background-size: cover;
+}
+
+.schedule{
+    width: 400px;
+    height: 200px;
+    background: url("/img/student2.jpg");
+    background-size: cover;
+}
+
+.evaluation{
+    width: 400px;
+    height: 200px;
+    background: url("/img/student3.png");
+    background-size: cover;
+}
+
+.manage-trainer{
+    width: 400px;
+    height: 200px;
+    background: url("../img/ManageTrainers.jpg");
+    background-size: cover;
+}
+
+.manage-courses{
+    width: 400px;
+    height: 200px;
+    background: url("../img/ManageCourse.jpg");
+    background-size: cover;
+}
+
+.evaluate-student{
+    width: 400px;
+    height: 200px;
+    background: url("../img/EvaluateStudent.jpg");
+    background-size: cover;
+}
+
+.manage-project-team{
+    width: 400px;
+    height: 200px;
+    background: url("../img/ManageProject.jpg");
+    background-size: cover;
+}
+
+.track{
+    width: 400px;
+    height: 200px;
+    background: url("../img/track.jpg");
+    background-size: cover;
+}
+
+.batch{
+    width: 400px;
+    height: 200px;
+    background: url("../img/batch.jpg");
+    background-size: cover;
+}
+
+.event{
+    width: 400px;
+    height: 200px;
+    background: url("../img/event.jpg");
+    background-size: cover;
+}
+
+.batch-detail{
+    width: 400px;
+    height: 200px;
+    background: url("../img/batch-detail.jpg");
+    background-size: cover;
+}
+
+.admin{
+    width: 400px;
+    height: 200px;
+    background: url("../img/admin.jpg");
+    background-size: cover;
+}
+
+.student{
+    width: 400px;
+    height: 200px;
+    background: url("../img/student.jpg");
+    background-size: cover;
+}
+
+.track-photo, .batch-photo, .event-photo, .batch-detail-photo, .admin-photo, .student-photo, .submit-assignment-photo, .schedule-photo, .evaluation-photo, .manage-trainer-photo, .manage-courses-photo, .evaluate-student-photo, .manage-project-team-photo{
+    margin-top: 100px;
+}
+
+.submit-assignment-text, .schedule-text, .evaluation-text, .manage-trainer-text, .manage-courses-text, .evaluate-student-text, .manage-project-team-text{
+    color: #EFB603;
+    font-weight: bolder;
+    font-size: 1.2em;
+    -webkit-text-stroke: medium #000;
+}
+
+.submit-assignment:hover, .schedule:hover, .evaluation:hover, .manage-trainer:hover, .manage-courses:hover, .evaluate-student:hover, .manage-project-team:hover {
+    opacity: 0.8;
+    -webkit-transition: prop 3ms;
+    -moz-transition: prop 3ms;
+    -ms-transition: prop 3ms;
+    -o-transition: prop 3ms;
+    transition: prop 3ms;
+}
+
+.header-color>h2 {
+  background: url("../img/Talentgif.webp");
+  background-size: contain;
+  background-position: top left;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: center;
+
+}
